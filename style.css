@@ -5,3 +5,17 @@ body {
     font-size: 100%;
     
 }
+
+/* ******** CONTAINER ******* */
+
+.container-wrapper {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+/* ******** FOOTER ******* */
+
+footer {
+
+}
