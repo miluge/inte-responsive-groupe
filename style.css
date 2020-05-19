@@ -101,14 +101,14 @@ li.topbar {
 .dropdown:hover .menu-lang-content {
       display: block;
     }
-  
+
 .dropdown {
       background-color: white;
     }
 
 /*  MENU */
 
-li { 
+li {
     list-style: none;
 }
 
@@ -122,7 +122,7 @@ li {
 
 .menu-item>a {
     font-family: 'Lato', sans-serif;
-    margin: 0rem 2rem 0rem 2rem; 
+    margin: 0rem 2rem 0rem 2rem;
     color: #a1b1bc;
     text-decoration: none;
 }
@@ -182,7 +182,7 @@ li.social-icons:nth-child(9) {
 .fa-shopping-basket {
     color: #1abc9c;
 }
- 
+
 .basket-btn {
     border-radius: 10px;
     padding: 5px;
@@ -230,15 +230,46 @@ main {
     background-color: #f9fafb;
 }
 /* ******** FOOTER ******* */
+/* ******** STF FOOTER DEBUT ******* */
 
-footer {
+/* couleurs */
+.footer--color-bg1 {background-color: #222533;}
+.footer--color-bg2 {background-color: #171D22;}
+.footer--color-sep {background-color: #46515C;}
+.footer--color-txt-secondary {color: #A1B1BC;}
 
-}
+/* containers  */
+.container-width60-center {min-width: 60%; padding-left: 20%; padding-right: 20%;}
+.container-width100 {min-width: 100%;}
+.footer-bloc-content {flex: 0 100%; max-width: 270px;}
+
+/* flex */
+.flex--row {display: flex;}
+.flex--col {display: flex; flex-direction: column;}
+.flex--align-items-center {align-items: center;}
+.flex--justify-content-flex-start {justify-content: flex-start;}
+.flex--justify-content-center {justify-content: center;}
+.flex--justify-content-flex-end {justify-content: flex-end;}
+.flex--justify-content-space-between {justify-content: space-between;}
+.flex--50prct {flex: 0 50%;}
+
+/* ID's */
+#footer--bottombar {border-top: 1px #39444E;}
+#footer--bottombar--social-icons i {color: #A1B1BC; margin: 7px;}
+#footer--bottombar--social-icons i:hover {color: #FFFFFF;}
+
+/* divers */
+.footer--sep-title {border:0px; height: 3px; width: 70px;margin-left: 0px; background-color: #1ABC9C;}
+footer p {color: #FFFFFF;}
+a {text-decoration: none; color: #FFFFFF;}
+a:hover {color: #1ABC9C;}
+
+/* ******** STF FOOTER FIN ******* */
 
 /* ********* MEDIA-QUERIES ********* */
 
 @media screen and (min-width: 1200px ) {
-    
+
     .burger {
         display: none;
     }
