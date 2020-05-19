@@ -10,12 +10,61 @@ body {
 
 .container-wrapper {
     display: flex;
+    flex-direction: column;
     width: 100%;
     height: auto;
+    justify-content: center;
+}
+
+/* ******** HEADER ******* */
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    width: 73.125rem;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*  MENU */
+
+li { 
+    list-style: none;
+}
+
+.menu {
+    height: 5.5625rem;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.menu-item {
+    flex: 1;
+    font-family: 'Lato', sans-serif;
+}
+
+/* ****** UTILITAIRES ******* */
+
+.d-flex {
+    display: flex;
 }
 
 /* ******** FOOTER ******* */
 
 footer {
 
+}
+
+/* ********* MEDIA-QUERIES ********* */
+
+@media screen and (min-width: 1200px; ) {
+    
+    .burger {
+        display: none;
+    }
 }
