@@ -255,8 +255,8 @@ main {
 
 /* ID's */
 #footer--bottombar {border-top: 1px #39444E;}
-#footer--bottombar--social-icons i {color: #A1B1BC; margin: 7px;}
-#footer--bottombar--social-icons i:hover {color: #FFFFFF;}
+#footer--bottombar--social-icons span {color: #A1B1BC; margin: 7px;}
+#footer--bottombar--social-icons span:hover {color: #FFFFFF;}
 
 /* divers */
 .footer--sep-title {border:0px; height: 3px; width: 70px;margin-left: 0px; background-color: #1ABC9C;}
