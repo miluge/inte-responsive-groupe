@@ -261,7 +261,7 @@ main {
 
 /* ID's */
 #footer--up {flex: 0 87%; padding-top: 97px; padding-bottom:102px;}
-#footer--bottombar {flex: 0 17%; border-top: 1px #39444E;}
+#footer--bottombar {flex: 0 100px; border-top: 1px #39444E;}
 #footer--bottombar--social-icons span {color: #A1B1BC; margin: 7px;}
 #footer--bottombar--social-icons span:hover {color: #FFFFFF;}
 
