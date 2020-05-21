@@ -238,6 +238,12 @@ main {
 .footer--color-sep {background-color: #46515C;}
 .footer--color-txt-secondary {color: #A1B1BC;}
 
+/* fontes */
+.fonts-lato15 {font-family: 'Lato', sans-serif; font-size: 0.9375rem;}
+.fonts-lato14 {font-family: 'Lato', sans-serif; font-size: 0.875rem;}
+.fonts-latoBlack16 {font-family: 'Lato', sans-serif; font-weight: 900; font-size: 1rem;}
+.fonts-letterSpacing300 {letter-spacing: 0.3rem;}
+
 /* containers  */
 .container-width60-center {min-width: 60%; padding-left: 20%; padding-right: 20%;}
 .container-width100 {min-width: 100%;}
@@ -254,15 +260,16 @@ main {
 .flex--50prct {flex: 0 50%;}
 
 /* ID's */
-#footer--bottombar {border-top: 1px #39444E;}
+#footer--up {flex: 0 87%; padding-top: 97px; padding-bottom:102px;}
+#footer--bottombar {flex: 0 17%; border-top: 1px #39444E;}
 #footer--bottombar--social-icons span {color: #A1B1BC; margin: 7px;}
 #footer--bottombar--social-icons span:hover {color: #FFFFFF;}
 
 /* divers */
-.footer--sep-title {border:0px; height: 3px; width: 70px;margin-left: 0px; background-color: #1ABC9C;}
-footer p {color: #FFFFFF;}
-a {text-decoration: none; color: #FFFFFF;}
-a:hover {color: #1ABC9C;}
+#footer--bloc-title::after {content: ""; display: block; height: 3px; width: 70px; margin-top: 7px; background-color: #1ABC9C;} /* separateur sous-titres */
+footer p {color: #FFFFFF; font-family: 'Lato', sans-serif; line-height: 1.5rem;}
+footer a {text-decoration: none; color: #FFFFFF;}
+footer a:hover {color: #1ABC9C;}
 
 /* ******** STF FOOTER FIN ******* */
 
