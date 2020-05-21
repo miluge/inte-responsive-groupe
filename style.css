@@ -258,6 +258,7 @@ main {
 .flex--justify-content-flex-end {justify-content: flex-end;}
 .flex--justify-content-space-between {justify-content: space-between;}
 .flex--50prct {flex: 0 50%;}
+.flex--wrap {flex-wrap: wrap;}
 
 /* ID's */
 #footer--up {flex: 0 87%; padding-top: 97px; padding-bottom:102px;}
