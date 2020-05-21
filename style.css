@@ -267,7 +267,7 @@ main {
 #footer--bottombar--social-icons span:hover {color: #FFFFFF;}
 
 /* divers */
-#footer--bloc-title::after {content: ""; display: block; height: 3px; width: 70px; margin-top: 7px; background-color: #1ABC9C;} /* separateur sous-titres */
+.footer--bloc-title::after {content: ""; display: block; height: 3px; width: 70px; margin-top: 7px; background-color: #1ABC9C;} /* separateur sous-titres */
 footer p {color: #FFFFFF; font-family: 'Lato', sans-serif; line-height: 1.5rem;}
 footer a {text-decoration: none; color: #FFFFFF;}
 footer a:hover {color: #1ABC9C;}
