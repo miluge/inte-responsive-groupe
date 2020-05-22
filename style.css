@@ -224,11 +224,46 @@ li.social-icons:nth-child(9) {
 .d-flex {
     display: flex;
 }
+
 /* ******** MAIN ********* */
 
 main {
     background-color: #f9fafb;
 }
+
+
+/* ******** STF DEBUT MAIN ********* */
+
+/* bloc contenant nos briques */
+#main--div-container {
+	display: block;					/* necessaire pour column-count		*/
+	margin: 100px auto 50px auto; 	/* margin: 0 auto; dans l'exemple	*/
+	max-width: 1170px;				/* largeur du bloc principal		*/
+	column-count: 3;				/* on veux 3 colonnes				*/
+	column-gap: 30px;				/* et 30px d'espace					*/
+}
+
+/* nos briques */
+.main--div-briques {
+	display: inline-block;
+	padding: 20px;
+	margin-bottom: 0 0 30px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+/* et leur contenu */
+.main--briques-content {
+	width: 100%;
+	background-color: #BEBEBE;
+}
+
+/* conteneur du bloc de pagination */
+#main--div-pagination {margin-bottom: 90px;}
+
+/* ******** STF FIN MAIN ********* */
+
+
 /* ******** FOOTER ******* */
 /* ******** STF FOOTER DEBUT ******* */
 
