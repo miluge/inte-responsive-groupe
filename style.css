@@ -322,12 +322,30 @@ footer a:hover {color: #1ABC9C;}
 /* ********* STF MEDIA-QUERIES FOOTER ********* */
 
 @media screen and (max-width: 768px) {
-	#footer--up {justify-content: center;}
+	#footer--up {
+		display: flex;
+		flex-wrap: wrap;
+	}
 
+	.footer-bloc-content {flex: 0 100%;	max-width: 400px; padding-top: 50px;}
+
+	#footer--copyright-container,
+	#footer--bottombar--social-icons {
+		flex: 0 100%;
+		justify-content: center;
+		text-align: center;
+	}
+}
+/*@media screen and (min-width: 769px) and (max-width: 1079px) {*/
+@media screen and (min-width: 769px) and (max-width: 1079px) {
+	#footer--up {justify-content: center;}
 	.footer-bloc-content {
-	flex: 0 100%;
-	max-width: 400px;
-	padding-top: 50px;
+		flex: 0 100%;
+		max-width: 400px;
+		padding-top: 40px;
+		padding-bottom: 40px;
+		padding-left : auto;
+		padding-right: auto;
 	}
 
 	#footer--copyright-container,
@@ -338,36 +356,19 @@ footer a:hover {color: #1ABC9C;}
 	}
 }
 
-@media screen and (min-width: 769px) {
-	#footer--up {justify-content: center;}
-
-	.footer-bloc-content {
-	flex: 0 100%;
-	max-width: 400px;
-	padding-top: 50px;
-	}
-
-	#footer--copyright-container,
-	#footer--bottombar--social-icons {
-		flex: 0 100%;
-		justify-content: center;
-		text-align: center;
-	}
-
-}
-
-@media screen and (min-width: 1080px) {
-	#footer--up {display: block; column-count: 2; padding: 80px 180px;}
-	.footer-bloc-content {column-width: 270px; column-gap: 40px; padding: 40px;}
+@media screen and (min-width: 1079px) and (max-width: 1759px) {
+	#footer--up {display: block; column-count: 2; padding: 80px auto;}
+	.footer-bloc-content {column-width: auto; column-gap: 40px; padding: 40px; max-width: 300px;}
 	#footer--bottombar--copyright {text-align: center;}
 	#footer--bottombar--social-icons {justify-content: center;}
 }
 
 @media screen and (min-width: 1760px) {
-	#footer--up {display: flex; flex: 0 87%; justify-content: space-between; padding-top: 97px; padding-bottom:102px; column: 2;}
-	.footer-bloc-content {flex: 0 270px;}
+	#footer--up {display: flex; flex-wrap: nowrap; flex: 0 87%; justify-content: space-between; padding: 97px 20% 100px 20%;}
+	.footer-bloc-content {flex: 0 235px;}
 	#footer--bottombar > div {flex-wrap: nowrap;}
-	#footer--bottombar--copyright {flex: 0 50%; text-align: center;}
+	/*.flex--justify-content-center {justify-content: center;	align-items: flex-start;}*/
+	#footer--bottombar--copyright {text-align: left;}
 	#footer--bottombar--social-icons {flex: 0 50%; justify-content: flex-end;}
 }
 
