@@ -357,7 +357,6 @@ footer a:hover {color: #1ABC9C;}
 }
 
 @media screen and (min-width: 1079px) and (max-width: 1759px) {
->>>>>>> stf-footer-fix
 	#footer--up {display: block; column-count: 2; padding: 80px auto;}
 	.footer-bloc-content {column-width: auto; column-gap: 40px; padding: 40px; max-width: 300px;}
 	#footer--bottombar--copyright {text-align: center;}
