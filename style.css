@@ -450,8 +450,15 @@ li.blog-footer {
 }
 
 .main--you-may a {text-decoration: none; color: white;}
+.main--you-may p {margin-bottom: 0px;}
 .main--you-may:hover {background-color: #2C3E50;}
-#you-may--link::before {content: ""; display: block; height: 1px; width: 100%; margin: 0px 0px 10px 0px; background-color: white;}
+.you-may--link::before {content: ""; display: block; height: 1px; width: 100%; margin: 0px 0px 10px 0px; background-color: white;}
+.main--you-may span {
+	position: relative;
+	right: 0px;
+	left: 260px;
+	top: -35px;
+}
 
 /* conteneur du bloc de pagination */
 #main--div-pagination {margin-bottom: 90px;}
