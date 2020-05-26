@@ -332,6 +332,43 @@ li.blog-footer {
 
 /* Slideshow */
 
+.slideshow-img {
+    z-index: -1;
+}
+
+.slideshow-button-left {
+    background-color: white;
+    padding: 10px;
+    border-radius: 0 5px 5px 0;
+    border-style: none;
+    position: absolute;
+    z-index: 1;
+    top: 175px;
+    left: 20px;
+}
+
+.slideshow-button-right {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+    border-style: none;
+    position: absolute;
+    z-index: 1;
+    top: 175px;
+    right: 20px;
+}
+
+.slideshow-link {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+    border-style: none;
+    position: absolute;
+    z-index: 2;
+    top: 40px;
+    right: 30px;
+}
+
 /* ******** STF DEBUT MAIN ********* */
 
 /* bloc contenant nos briques */
