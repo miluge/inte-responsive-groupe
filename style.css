@@ -641,9 +641,19 @@ footer a:hover {color: #1ABC9C;}
         padding-right: 5px;
     }
 
-    .blog-footer> .v-divider {
-        margin: 0 3rem 0 3rem; 
+    .blog-footer li {
+        display: flex;
+        justify-content:space-evenly ;
+        align-items: center;
+        margin-bottom: 5px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
+
+    ul.blog-footer> li:nth-child(1) {
+        padding-left: 10px;
+    }
+
 }
 
 /* ********* STF MEDIA-QUERIES FOOTER ********* */
