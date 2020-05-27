@@ -543,8 +543,44 @@ footer a:hover {color: #1ABC9C;}
 	div.main--div-briques:nth-child(4) {
 	  padding-left: 10px;
 	  padding-right: 10px;
-	}
+    }
+
+    .slideshow-button-left {
+        left: 5px;
+        top: 205px;
+    }
+
+    .slideshow-button-right {
+        right: 5px;
+        top: 205px;
+    }
+
+    .slideshow-button-search {
+        top: 155px;
+        right: 145px;
+    }
+
+    .slideshow-button-link-r {
+        top: 155px;
+        left: 145px;
+    }
+
+    .img-over-text {
+        top: 235px;
+        right: 33%;
+    }
+
+    .main--you-may span {
+        top: 190px;
+        right: 30px;
+        left: auto;
+        bottom: auto;
+    }
+    
+
 }
+
+/* -------------------------------------- */ 
 
 @media screen and (min-width: 1200px ) {
 
