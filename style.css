@@ -529,9 +529,55 @@ footer a:hover {color: #1ABC9C;}
 /* ********* MEDIA-QUERIES ********* */
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
+
+    .container-wrapper {
+        width: 47.9rem;
+    }
+
+    .header-box {
+        width: 47.9rem;
+    }
+
+    .burger {
+        display: none;
+    }
+
+    .menu-item>a {
+        margin: 0 0.5rem 0 0.5rem;
+    }
+
+    nav img {
+        padding-left: 0.5rem;
+    }
+
+    ul.d-flex:nth-child(2) {
+        padding-left: 10px;
+    }
+
+    .breadbox-crumb {
+        padding-right: 1rem;
+    }
+
+    .breadcrumb {
+        width: 47.9rem;
+    }
+
+    .breadbox-text {
+        padding-left: 1rem;
+    }
+
+    .top-bar > div:nth-child(2) > ul:nth-child(1) {
+        padding-right: 1rem;
+    }
+
+    nav p {
+        padding-right: 1rem;
+    }
+
 	#main--div-container {
 	  column-count: 2;
-	  column-gap: 10px;
+      column-gap: 10px;
+      width: 47.9rem;
 	}
 
 	.main--div-briques {
@@ -547,27 +593,27 @@ footer a:hover {color: #1ABC9C;}
 
     .slideshow-button-left {
         left: 5px;
-        top: 205px;
+        top: 165px;
     }
 
     .slideshow-button-right {
         right: 5px;
-        top: 205px;
+        top: 165px;
     }
 
     .slideshow-button-search {
-        top: 155px;
-        right: 145px;
+        top: 115px;
+        right: 85px;
     }
 
     .slideshow-button-link-r {
-        top: 155px;
-        left: 145px;
+        top: 115px;
+        left: 85px;
     }
 
     .img-over-text {
-        top: 235px;
-        right: 33%;
+        top: 185px;
+        right: 29%;
     }
 
     .main--you-may span {
@@ -575,6 +621,10 @@ footer a:hover {color: #1ABC9C;}
         right: 30px;
         left: auto;
         bottom: auto;
+    }
+
+    ul.blog-footer> li:nth-child(1) {
+        padding-left: 7px;
     }
     
 
