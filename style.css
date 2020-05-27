@@ -103,7 +103,7 @@ li.topbar {
       color: #6fceb8;
     }
 
-.dropdown:hover .menu-lang-content {
+.dropdown:hover .menu-lang-content{
       display: block;
     }
 
@@ -626,8 +626,14 @@ footer a:hover {color: #1ABC9C;}
     ul.blog-footer> li:nth-child(1) {
         padding-left: 7px;
     }
-    
 
+    .menu-burger-content {
+        display: none;
+    }
+
+    .menu-item-content {
+        display: none;
+    }
 }
 
 /* -------------------------------------- */ 
@@ -637,9 +643,13 @@ footer a:hover {color: #1ABC9C;}
     .burger {
         display: none;
     }
+
+    .menu-burger-content {
+        display: none;
+    }
 }
 
-@media screen and (min-width: 992px)  {
+@media screen and (min-width: 992px) and (max-width: 1119px) {
 
     .burger {
         display: none;
@@ -740,6 +750,96 @@ footer a:hover {color: #1ABC9C;}
         padding-left: 10px;
     }
 
+    .menu-burger-content {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .header-box {
+        width: 30rem;
+        padding:0 1rem;
+    }
+
+    .social-icons {
+        display: none;
+    }
+
+    nav {
+        position: relative;
+        padding-left: 1rem;
+    }
+
+    .breadbox-crumb {
+        display: none;
+    }
+
+    .breadcrumb {
+        justify-content: center;
+    }
+
+    .breadcrumb {
+        width: 30rem;
+    }
+
+    .shopping-basket {
+        padding-right: 1rem;
+    }
+    
+    .burger {
+        padding-right: 35px;
+        font-size: 2rem;
+        cursor: pointer;
+    }
+
+    .menu-burger-content {
+        display: none;
+        position: absolute;
+        top: 51px;
+        right: auto;
+        left: -275px;
+        background-color: white;
+        min-width: 29.99rem;
+        box-shadow: 0px 8px 16px 0px #f3f3f3;
+        z-index: 1;
+        text-align: center;
+        font-size: 1.2rem;
+        cursor: pointer;
+    }
+
+    .menu > p:nth-child(3) > a:nth-child(1) > img:nth-child(1) {
+        padding-right: 1.2rem;
+    }
+
+    .logo {
+        margin-left: 1rem;
+    }
+
+    .menu-item-content>a {
+    font-family: 'Lato', sans-serif;
+    margin: 2rem 2rem 0rem 2rem;
+    color: #a1b1bc;
+    text-decoration: none;
+    line-height: 2rem;
+    cursor: pointer;
+    }
+
+    .menu-item {
+        display: none;
+    }
+
+    .menu-item-content a:hover {
+        background-color: white;
+        color: #6fceb8;
+      }
+  
+  .dropdown:hover .menu-burger-content{
+        display: block;
+      }
+
+      ul.d-flex:nth-child(2) {
+        padding-left: 0px;
+    }
 }
 
 /* ********* STF MEDIA-QUERIES FOOTER ********* */
