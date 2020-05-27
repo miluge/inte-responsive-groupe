@@ -702,7 +702,7 @@ footer a:hover {color: #1ABC9C;}
     }
 }
 
-@media screen and (min-width: 992px) and (max-width: 1119px) {
+@media screen and (min-width: 992px) and (max-width: 1199px) {
 
     .burger {
         display: none;
@@ -934,7 +934,7 @@ footer a:hover {color: #1ABC9C;}
     .shopping-basket {
         padding-right: 1rem;
     }
-    
+
     .burger {
         padding-right: 35px;
         font-size: 2rem;
@@ -981,7 +981,7 @@ footer a:hover {color: #1ABC9C;}
         background-color: white;
         color: #6fceb8;
       }
-  
+
     .dropdown:hover .menu-burger-content{
         display: block;
       }
