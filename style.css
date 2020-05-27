@@ -1015,7 +1015,7 @@ footer a:hover {color: #1ABC9C;}
         color: #6fceb8;
       }
   
-  .dropdown:hover .menu-burger-content{
+    .dropdown:hover .menu-burger-content{
         display: block;
       }
 
