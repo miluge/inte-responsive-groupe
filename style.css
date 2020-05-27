@@ -165,7 +165,6 @@ li.menu-item:nth-child(10) {
 
 /* icones */
 
-
 .fab, .fas{
     color: #a1b1bc;
 }
@@ -413,7 +412,7 @@ li.blog-footer {
     text-align: center;
 }
 
-/* ******** STF DEBUT MAIN ********* */
+/* ******** STF MAIN ********* */
 
 /* bloc contenant nos briques */
 #main--div-container {
@@ -472,11 +471,7 @@ li.blog-footer {
 /* conteneur du bloc de pagination */
 #main--div-pagination {margin-bottom: 90px;}
 
-/* ******** STF FIN MAIN ********* */
-
-
-/* ******** FOOTER ******* */
-/* ******** STF FOOTER DEBUT ******* */
+/* ******** STF FOOTER ******* */
 
 /* couleurs */
 .footer--color-bg1 {background-color: #222533;}
@@ -523,8 +518,6 @@ li.blog-footer {
 footer p {color: #FFFFFF; font-family: 'Lato', sans-serif; line-height: 1.5rem;}
 footer a {text-decoration: none; color: #FFFFFF;}
 footer a:hover {color: #1ABC9C;}
-
-/* ******** STF FOOTER FIN ******* */
 
 /* ********* MEDIA-QUERIES ********* */
 
@@ -688,8 +681,6 @@ footer a:hover {color: #1ABC9C;}
         display: none;
     }
 }
-
-/* -------------------------------------- */
 
 @media screen and (min-width: 1200px ) {
 
@@ -968,12 +959,12 @@ footer a:hover {color: #1ABC9C;}
     }
 
     .menu-item-content>a {
-    font-family: 'Lato', sans-serif;
-    margin: 2rem 2rem 0rem 2rem;
-    color: #a1b1bc;
-    text-decoration: none;
-    line-height: 2rem;
-    cursor: pointer;
+      font-family: 'Lato', sans-serif;
+      margin: 2rem 2rem 0rem 2rem;
+      color: #a1b1bc;
+      text-decoration: none;
+      line-height: 2rem;
+      cursor: pointer;
     }
 
     .menu-item {
@@ -1084,4 +1075,3 @@ footer a:hover {color: #1ABC9C;}
 	#footer--bottombar--social-icons {flex: 0 50%; justify-content: flex-end;}
 }
 
-/* ********* STF MEDIA-QUERIES FOOTER ********* */
