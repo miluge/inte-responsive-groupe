@@ -692,7 +692,6 @@ footer a:hover {color: #1ABC9C;}
 }
 
 @media screen and (min-width: 992px) and (max-width: 1119px) {
-@media screen and (min-width: 992px)  and (max-width: 1199px) {
 
     .burger {
         display: none;
