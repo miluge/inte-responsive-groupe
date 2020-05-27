@@ -443,6 +443,14 @@ li.blog-footer {
 	background-color: #BEBEBE;
 }
 
+/* images d'illustration */
+
+.picsum-img {
+	width: 100%;
+	height: auto;
+}
+
+/* "brique" you may... */
 .main--you-may {
 	background-color: #21C2F8;
 	line-height: 1.5;
@@ -519,6 +527,24 @@ footer a:hover {color: #1ABC9C;}
 /* ******** STF FOOTER FIN ******* */
 
 /* ********* MEDIA-QUERIES ********* */
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	#main--div-container {
+	  column-count: 2;
+	  column-gap: 10px;
+	}
+
+	.main--div-briques {
+	  padding: 10px;
+	  margin: 10px;
+	  width: 95%;
+	}
+
+	div.main--div-briques:nth-child(4) {
+	  padding-left: 10px;
+	  padding-right: 10px;
+	}
+}
 
 @media screen and (min-width: 1200px ) {
 
