@@ -702,7 +702,11 @@ footer a:hover {color: #1ABC9C;}
     }
 }
 
-@media screen and (min-width: 992px) and (max-width: 1119px) {
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+
+    .menu-burger-content {
+        display: none;
+    }
 
     .burger {
         display: none;
@@ -1016,10 +1020,15 @@ footer a:hover {color: #1ABC9C;}
     }
 
     .main--you-may span {
-        top: 50px;
-        right: 5px;
+        top: 250px;
+        right: 40px;
         left: auto;
         bottom: auto;
+        z-index: 2;
+    }
+
+    .fonts-30 {
+        z-index: -1;
     }
 }
 
