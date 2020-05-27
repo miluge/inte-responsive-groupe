@@ -989,6 +989,38 @@ footer a:hover {color: #1ABC9C;}
       ul.d-flex:nth-child(2) {
         padding-left: 0px;
     }
+
+    .slideshow-button-left {
+        left: 15px;
+        top: 125px;
+    }
+
+    .slideshow-button-right {
+        right: 15px;
+        top: 125px;
+    }
+
+    .slideshow-button-search {
+        top: 95px;
+        right: 85px;
+    }
+
+    .slideshow-button-link-r {
+        top: 95px;
+        left: 85px;
+    }
+
+    .img-over-text {
+        top: 135px;
+        right: 15%;
+    }
+
+    .main--you-may span {
+        top: 50px;
+        right: 5px;
+        left: auto;
+        bottom: auto;
+    }
 }
 
 /* ********* STF MEDIA-QUERIES FOOTER ********* */
