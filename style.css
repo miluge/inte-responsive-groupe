@@ -906,39 +906,6 @@ footer a:hover {color: #1ABC9C;}
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
     .header-box {
-        width: 100%;
-    }
-
-    .social-icons {
-        display: none;
-    }
-
-    nav {
-        overflow: hidden;
-        position: relative;
-    }
-
-
-    .burger {
-        font-size: 2rem;
-    }
-
-    .menu-item {
-        display: none;
-        position: absolute;
-        top: 51px;
-        background-color: white;
-        min-width: 110px;
-        box-shadow: 0px 8px 16px 0px #f3f3f3;
-        z-index: 1;
-}
-    .menu-burger-content {
-        display: none;
-    }
-}
-
-@media screen and (min-width: 480px) and (max-width: 767px) {
-    .header-box {
         width: 30rem;
         padding:0 1rem;
     }
