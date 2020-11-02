@@ -10,7 +10,6 @@ body {
 .container-wrapper {
   display: flex;
   flex-direction: column;
-  width: 100%;
   height: auto;
   justify-content: center;
   position: relative;
@@ -544,13 +543,14 @@ footer p {color: #FFFFFF; font-family: 'Lato', sans-serif; line-height: 1.5rem;}
 footer a {text-decoration: none; color: #FFFFFF;}
 footer a:hover {color: #1ABC9C;}
 
+
 /* ********* MEDIA-QUERIES ********* */
 
 @media screen and (max-width: 767px) {
   #main--div-container {
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 80%;
     align-items: center;
   }
 
@@ -599,11 +599,8 @@ footer a:hover {color: #1ABC9C;}
 
 }
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
 
-  .container-wrapper {
-    width: 47.9rem;
-  }
+@media screen and (min-width: 768px) and (max-width: 991px) {
 
   .header-box {
     width: 47.9rem;
@@ -826,10 +823,6 @@ footer a:hover {color: #1ABC9C;}
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
 
-  .container-wrapper {
-    width: 47.9rem;
-  }
-
   .header-box {
     width: 47.9rem;
   }
@@ -925,6 +918,7 @@ footer a:hover {color: #1ABC9C;}
 }
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
+
   .header-box {
     width: 30rem;
   }
@@ -1084,19 +1078,32 @@ footer a:hover {color: #1ABC9C;}
   }
 }
 
-@media screen and (min-width: 1079px) and (max-width: 1759px) {
-  #footer--up {display: block; column-count: 2; padding: 80px auto;}
-  .footer-bloc-content {column-width: auto; column-gap: 40px; padding: 40px; max-width: 300px;}
-  #footer--bottombar--copyright {text-align: center;}
-  #footer--bottombar--social-icons {justify-content: center;}
-}
 
 @media screen and (min-width: 1760px) {
   #footer--up {display: flex; flex-wrap: nowrap; flex: 0 87%; justify-content: space-between; padding: 97px 20% 100px 20%;}
   .footer-bloc-content {flex: 0 235px;}
   #footer--bottombar > div {flex-wrap: nowrap;}
-  /*.flex--justify-content-center {justify-content: center;	align-items: flex-start;}*/
   #footer--bottombar--copyright {text-align: left;}
   #footer--bottombar--social-icons {flex: 0 50%; justify-content: flex-end;}
+}
+
+
+/* Fix main container */
+@media screen and (max-width: 480px){
+  #main--div-container {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 600px){
+  #main--div-container {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 767px){
+  #main--div-container {
+    width: 80%;
+  }
 }
 
