@@ -915,7 +915,7 @@ footer a:hover {color: #1ABC9C;}
   }
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
 
   .header-box {
     width: 30rem;
@@ -1037,6 +1037,30 @@ footer a:hover {color: #1ABC9C;}
   .fonts-30 {
     z-index: -1;
   }
+}
+
+@media screen and (max-width: 479px) {
+
+  .header-box {
+    width: 100%;
+  }
+
+  .menu {
+    height: 4.5rem;
+  }
+
+  nav {
+    padding: 0;
+  }
+
+  .burger {
+    padding: 15px;
+  }
+
+  .breadcrumb {
+    width: 100%;
+  }
+
 }
 
 /* ********* STF MEDIA-QUERIES FOOTER ********* */
